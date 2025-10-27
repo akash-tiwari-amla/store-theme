@@ -59,7 +59,8 @@
       "blockClass": "product"
     },
     "children": [
-      "flex-layout.row#product-image",
+      // "flex-layout.row#product-image",
+      "Editor",
       "product-bookmark",
       "product-specification-badges"
     ]
@@ -108,12 +109,14 @@
       "product-identifier.product",
       "sku-selector",
       "product-quantity",
-      "product-assembly-options",
+      // "product-assembly-options",
+      "ArtifiInjection",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
-      "share#default"
+      "share#default",
+      "InitializeArtifi"
     ]
   },
 
@@ -159,7 +162,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
-      "product-identifier.product",
+      // "product-identifier.product",
       "sku-selector",
       "flex-layout.row#availability"
     ]
