@@ -112,11 +112,12 @@
       // "product-assembly-options",
       "ArtifiInjection",
       "product-gifts",
-      "flex-layout.row#buy-button",
+      // "flex-layout.row#buy-button",
+      "Addtocart",
+      "InitializeArtifi",
       "availability-subscriber",
       "shipping-simulator",
-      "share#default",
-      "InitializeArtifi"
+      "share#default"
     ]
   },
 

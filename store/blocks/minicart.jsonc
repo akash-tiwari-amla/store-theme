@@ -14,7 +14,7 @@
   },
   "minicart-base-content": {
     "blocks": ["minicart-empty-state"],
-    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+    "children": ["CustomMinicartImage","minicart-product-list", "flex-layout.row#minicart-footer"]
   },
   "flex-layout.row#minicart-footer": {
     "props": {
