@@ -65,8 +65,5 @@
     "vtex.css-handles": "1.x",
     "sandboxhimanshu11.artifi-vtex-connector": "0.x"
   },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "3.x"
-  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

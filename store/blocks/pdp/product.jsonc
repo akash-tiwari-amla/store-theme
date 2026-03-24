@@ -6,9 +6,7 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "shelf.relatedProducts"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -59,7 +57,7 @@
       "blockClass": "product"
     },
     "children": [
-      // "flex-layout.row#product-image",
+      "flex-layout.row#product-image",
       "Editor",
       "product-bookmark",
       "product-specification-badges"
@@ -101,18 +99,18 @@
     },
     "children": [
       "flex-layout.row#product-name",
-      "product-rating-summary",
+      "product-rating-summary",    // requires vtex.reviews-and-ratings@3.x
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
       "product-separator",
       "product-identifier.product",
       "sku-selector",
+      "product-sku-attributes",
       "product-quantity",
-      // "product-assembly-options",
       "ArtifiInjection",
       "product-gifts",
-      // "flex-layout.row#buy-button",
+      "flex-layout.row#buy-button",
       "Addtocart",
       "InitializeArtifi",
       "availability-subscriber",
@@ -163,7 +161,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
-      // "product-identifier.product",
+      "product-identifier.product",
       "sku-selector",
       "flex-layout.row#availability"
     ]
@@ -183,6 +181,11 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+    "ArtifiInjection": {
+    "props": {
+      "feature": ["upload","myArt","text-area", "text-formatting", "text-color"]
     }
   }
 }
